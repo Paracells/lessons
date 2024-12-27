@@ -18,5 +18,6 @@ export default defineConfig({
       provider: "local"
     },
   },
+  base: "/lessons/",
   srcDir: "../lessons"
 })
