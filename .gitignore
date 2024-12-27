@@ -30,3 +30,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 /.idea/
+node_modules
+vitepress/.vitepress/dist
+vitepress/.vitepress/cache

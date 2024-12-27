@@ -56,7 +56,7 @@ try (Connection connection = getConnection();
 Придумать пример достаточно просто. Скажем, в своем Java-приложении мы хотим иметь возможность получать данные о
 пассажире по его идентификатору. В общем виде такой запрос можно представить следующим образом:
 
-```roomsql
+```sql
 -- ? - обозначение изменяемого параметра 
 select * from passenger where id = ?
 ```
@@ -191,7 +191,7 @@ public List<Passenger> findByFullName(String firstName,String lastName) {
 
 Параметры: `"Ivan"`, `"Ivanov"`.
 
-```roomsql
+```sql
 select * from passenger where first_name = 'Ivan' and last_name = 'Ivanov'
 ```
 
@@ -201,7 +201,7 @@ select * from passenger where first_name = 'Ivan' and last_name = 'Ivanov'
 
 Конечный запрос будет выглядеть как
 
-```roomsql
+```sql
 select * from passenger where first_name = 'Ivan' and last_name = 'Ivanov' or '1' = '1'
 ```
 
@@ -220,7 +220,7 @@ select * from passenger where first_name = 'Ivan' and last_name = 'Ivanov' or '1
 
 Параметры: `"Ivan"`, `"Ivanov' or '1' = '1"`.
 
-```roomsql
+```sql
 select * from passenger where first_name = 'Ivan' and last_name = 'Ivanov'' or ''1'' = ''1'
 ```
 
