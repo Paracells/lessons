@@ -91,7 +91,7 @@
 
 **14.** [Принципы ООП. Полиморфизм](https://telegra.ph/Polimorfizm-Pereopredelenie-metodov-Vidy-polimorfizma-i-svyazyvanie-11-25)
 
-SOLID и другие принципы ОО-дизайна
+**159.** [SOLID и другие принципы ОО-дизайна](https://github.com/KFalcon2022/lessons/blob/master/lessons/oop/159/SOLID.%20Principles%20of%20Object%20Oriented%20Design.md)
 
 ## Collections Framework
 
@@ -378,11 +378,16 @@ SOLID и другие принципы ОО-дизайна
 
 **158.** [Отношения в JPA. Ленивая загрузка. Проблема N+1](https://github.com/KFalcon2022/lessons/blob/master/lessons/orm-and-jpa/158/JPA%20Relationships.md)
 
-- JPQL
-- Criteria API
-- Кэширование в Hibernate. Кэш первого уровня или Persistence Context
-- Кэширование в Hibernate. Кэш второго уровня. Кэш запросов
-- Стратегии наследования в Hibernate
+**161.** [JPQL](https://github.com/KFalcon2022/lessons/blob/master/lessons/orm-and-jpa/161/JPQL.md)
+
+**162.** [Criteria API. Основной API](https://github.com/KFalcon2022/lessons/blob/master/lessons/orm-and-jpa/162/Criteria%20API.%20Main%20API.md)
+
+**163.** [Criteria API. Типобезопасность и метамодель](https://github.com/KFalcon2022/lessons/blob/master/lessons/orm-and-jpa/163/Criteria%20API.%20Type%20safety%20and%20Metamodel.md)
+
+**164.** [Кэш первого уровня или Persistence Context](https://github.com/KFalcon2022/lessons/blob/master/lessons/orm-and-jpa/164/Persistence%20Context.md)
+
+**165.** [JPA и Hibernate. Кэш второго уровня. Кэш запросов](https://github.com/KFalcon2022/lessons/blob/master/lessons/orm-and-jpa/165/Hibernate%20second%20level%20cache.%20Query%20cache.md)
+- Наследование в JPA
 - EntityGraph
 
 ## Spring Framework
@@ -460,7 +465,8 @@ _Будет дополнено_
 
 **144.** [JSON](https://github.com/KFalcon2022/lessons/blob/master/lessons/out-of-classification/144/JSON.md)
 
-- Паттерны проектирования
+**160.** [Паттерны проектирования](https://github.com/KFalcon2022/lessons/blob/master/lessons/out-of-classification/160/Design%20patterns.md)
+
 - Docker
 - Lombok
 - Docker Compose и k8s
